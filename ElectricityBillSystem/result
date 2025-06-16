@@ -1,0 +1,15 @@
+CREATE TABLE users (
+
+consumer_id VARCHAR(10) PRIMARY KEY,
+
+bill_no VARCHAR(5),
+
+mobile_no VARCHAR(10),
+
+user_id VARCHAR(20) UNIQUE,
+
+password VARCHAR(20),
+
+confirmpassword VARCHAR(50)
+
+);
